@@ -1,0 +1,44 @@
+.dashboard-title {
+  font-size: 2em;
+  text-transform: uppercase; }
+
+.dashboard-subtitle {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block; }
+
+.dashboard .form-control {
+  display: inline;
+  width: 15rem; }
+
+.dashboard .card {
+  margin: 1rem 0; }
+
+.dashboard .fa-user-circle {
+  margin-right: 1rem; }
+
+.dashboard .client-name {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: black; }
+
+.dashboard .detail {
+  padding: 10px;
+  background: #e9ecef; }
+  .dashboard .detail:nth-child(1), .dashboard .detail:nth-child(2), .dashboard .detail:nth-child(3) {
+    bdashboard-bottom: 1px solid #dddbdb; }
+  .dashboard .detail:nth-child(3), .dashboard .detail:nth-child(6) {
+    bdashboard-right: none; }
+  .dashboard .detail p {
+    font-size: 1.2em;
+    color: #4c4c4d; }
+    .dashboard .detail p span {
+      font-weight: 600; }
+
+.totales {
+  text-align: right;
+  padding: 1rem; }
+  .totales .total {
+    font-weight: bold;
+    font-size: 1.6em; }

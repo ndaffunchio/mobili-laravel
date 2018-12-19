@@ -1,0 +1,9 @@
+1. Corregir lo del doble logout para que sean independientes. (consultado con Maxi)
+2. Agregar seleccion de categorias a productos // Hecho
+3. Armar las vistas de administrador (listar, crear, editar, borrar) // hechos archivos
+4. Dejar seeds para 1 admin, 1 categoría ("sin categoría") // hecho
+5. Armar la vista de usuarios // hechos archivos
+
+
+6. Todo lo relacionado a carrito y ventas.  ** En curso
+7. Solucionar tema del nombre invalido en carga de productos (nombres repetidos)

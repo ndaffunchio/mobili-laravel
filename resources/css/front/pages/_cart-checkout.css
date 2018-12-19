@@ -1,0 +1,166 @@
+.title {
+  margin: 0; }
+  .title h2 {
+    font-size: 3em;
+    letter-spacing: 0.1em; }
+  .title p {
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #707070; }
+
+.producto-subtotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0; }
+  .items .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-color: #F7F7F7;
+    padding: 1%;
+    margin-bottom: 1%; }
+    .items .item img {
+      width: 10em;
+      height: 10em; }
+    .items .item .description {
+      margin-left: 2%;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .items .item .description .name-price {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        .items .item .description .name-price p {
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          margin: 0;
+          font-size: 1.3em;
+          font-weight: bold;
+          letter-spacing: 0.05em;
+          color: #413F3D; }
+        .items .item .description .name-price .total-price {
+          font-size: 1.5em; }
+        .items .item .description .name-price form {
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
+          display: inline-flex; }
+          .items .item .description .name-price form button {
+            margin: 0 0.2em 0 0.2em;
+            padding: 0;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            background: none; }
+            .items .item .description .name-price form button i {
+              display: -webkit-inline-box;
+              display: -ms-inline-flexbox;
+              display: inline-flex;
+              color: #BCADAD;
+              font-size: 13px; }
+      .items .item .description .unit-price {
+        margin-top: 0;
+        color: #413F3D;
+        font-style: italic;
+        font-size: 1.2em;
+        letter-spacing: 0.1em; }
+      .items .item .description .units {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-bottom: 3%; }
+        .items .item .description .units .cantidad {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          height: 1.5em;
+          width: 1.8em;
+          border: 1px solid #D4D5D3;
+          color: #413F3D;
+          font-size: 1.3em;
+          font-weight: bold;
+          background-color: #FFFFFF; }
+        .items .item .description .units .numero {
+          width: 2.2em; }
+
+.totales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-bottom: 5%; }
+  .totales p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold; }
+  .totales .subtotal {
+    margin-top: 8%;
+    font-weight: bold;
+    font-size: 1.6em; }
+  .totales .total {
+    font-weight: bold;
+    font-size: 2.8em;
+    color: #73A84D;
+    margin-bottom: 1%; }
+  .totales .botones-compra {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+    .totales .botones-compra input {
+      margin: 10% 0 0 0; }
+    .totales .botones-compra p {
+      text-decoration: underline;
+      margin-top: 0;
+      font-size: 1.5em; }

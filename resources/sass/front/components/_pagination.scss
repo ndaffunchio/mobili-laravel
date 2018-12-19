@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:5rem;
+    .page-item {
+        font-size:3em;
+        margin: 0 1rem;
+        .page-link {
+            font-size:1em;
+            color:$gris-medio;
+            &:hover {
+                color:$verde-claro;
+            }
+            &[rel="next"], &[rel="prev"] {
+                color:$gris-medio;
+                &:hover {
+                    color:$verde-claro;
+                }
+            }
+        }
+        &.active {
+            .page-link {
+                color:$verde-oscuro;
+            }
+        }
+        &.disabled {
+            display: none;
+        }
+    }
+}

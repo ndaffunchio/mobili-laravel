@@ -1,0 +1,15 @@
+.container {
+  width: 90%; }
+
+.producto-subtotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }

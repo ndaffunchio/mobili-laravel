@@ -1,0 +1,79 @@
+.container-product .product-image {
+  display: none; }
+
+.container-product .slick-dots li button:before {
+  color: #b1d398;
+  font-size: 3rem; }
+
+.container-product-description {
+  width: 10%;
+  margin-left: 7%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .container-product-description .description {
+    margin-bottom: 2%; }
+    .container-product-description .description .pay {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .container-product-description .description .pay a {
+        margin: 0; }
+
+.colors h5 {
+  font-size: 1.4em; }
+
+.colors .circulos {
+  text-align: left;
+  margin-bottom: 8%; }
+  .colors .circulos #color1 {
+    background-color: #D94A6A; }
+  .colors .circulos #color2 {
+    background-color: #EF6A3C; }
+  .colors .circulos #color3 {
+    background-color: #3E9186; }
+  .colors .circulos #color4 {
+    background-color: #FFE64E; }
+  .colors .circulos .circulo {
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 3.5em;
+    width: 3.5em;
+    margin-right: 4%; }
+
+.colors .submit-btn {
+  font-size: 1.4em; }
+
+@media all and (min-width: 991px) {
+  .container-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .container-product .slider-producto {
+      display: none; }
+    .container-product-description {
+      width: 52%;
+      margin-left: 7%;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .container-product-description .description {
+        margin-bottom: 2%; }
+        .container-product-description .description .pay {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column; }
+          .container-product-description .description .pay a {
+            margin: 0; } }

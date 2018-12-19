@@ -1,0 +1,41 @@
+
+.container{
+    &-form{
+      text-align: center;
+      padding: 1rem 0;
+      .fa-smile{
+        display: block;
+        font-size: 16em;
+        padding: 4rem 1rem;
+      }  
+    }
+    .aside{
+      background: $blanco;
+      font-size:1em;
+      flex-grow: 1;
+      padding: 0 2em 2em;
+      text-align: center;
+      p {
+        margin-top: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  
+  .error {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width:768px){
+    .container-form{
+      background: $gris-claro;
+      flex-direction: column;
+      width: 700px;
+      margin: 4rem auto 4rem;
+      padding: 4rem;
+      h2{
+        font-size: 2.6em;
+      }
+    }
+  }

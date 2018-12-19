@@ -1,0 +1,53 @@
+.dashboard-title{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.dashboard {
+    &-subtitle{
+        font-size: 1.2em;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: block;
+    }
+    .form-control{
+        display: inline;
+        width: 15rem;
+    }
+    .card{
+        margin: 1rem 0;
+    }
+    .fa-user-circle{
+        margin-right: 1rem;
+    }
+    .client-name{
+        font-size: 1.4em;
+        font-weight: 600;
+        color: black;
+    }
+    .detail {
+        padding:10px;
+        background:#e9ecef;
+        &:nth-child(1),&:nth-child(2),&:nth-child(3)  {
+            bdashboard-bottom:1px solid #dddbdb;
+        }
+        &:nth-child(3),&:nth-child(6) {
+            bdashboard-right:none;
+        }
+        p {
+            font-size:1.2em;
+            color:#4c4c4d;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}
+.totales{
+    text-align: right;
+    padding: 1rem;
+    .total{
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+}

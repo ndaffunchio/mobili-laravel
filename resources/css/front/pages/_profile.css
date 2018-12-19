@@ -1,0 +1,37 @@
+section.micuenta {
+  text-align: center; }
+
+.container-button {
+  width: 100%;
+  margin: 2rem auto; }
+
+.container-avatar {
+  text-align: center;
+  margin: 2rem auto; }
+
+.container-copy {
+  margin: 0rem auto; }
+
+.container-content {
+  margin-top: 10%; }
+
+@media all and (min-width: 768px) {
+  .container-button {
+    width: 40%;
+    margin: 2rem auto; }
+  .container-avatar {
+    text-align: center;
+    margin: 2rem; }
+  .container-copy {
+    margin: 2rem auto; }
+  .container-content {
+    width: 80%;
+    margin: 3rem auto 0; }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; } }

@@ -1,0 +1,51 @@
+
+.medio-de-pago {
+    position: relative;
+    min-height: 6rem;
+    span {
+        font-size: 1.5em;
+        // display: inline-block;
+        // margin: 1rem 0 0 1rem;
+        position: absolute;
+        top: -5px;
+        left: 2.5rem;
+        max-width: 230px;
+    }
+}
+
+#formPago {
+    margin-bottom: 2rem;
+}
+
+.showroom-items {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media all and (min-width:400px){
+    .medio-de-pago {
+        position: static;
+        min-height: auto;
+        span {
+            font-size: 1.6em;
+            display: inline-block;
+            margin: 1rem 0 0 1rem;
+            position: static;
+            max-width: none;
+        }
+    }
+}
+
+@media all and (min-width:991px) {
+    .showroom-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        section {
+            width: 45%;
+        }
+    }
+}

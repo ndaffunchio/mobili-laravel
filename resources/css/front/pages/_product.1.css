@@ -1,0 +1,29 @@
+.product .slick-dots li button:before {
+  color: #b1d398;
+  font-size: 3rem; }
+
+.colors h5 {
+  font-size: 1.4em; }
+
+.colors .circulos {
+  text-align: left;
+  margin-bottom: 8%; }
+  .colors .circulos #color1 {
+    background-color: #D94A6A; }
+  .colors .circulos #color2 {
+    background-color: #EF6A3C; }
+  .colors .circulos #color3 {
+    background-color: #3E9186; }
+  .colors .circulos #color4 {
+    background-color: #FFE64E; }
+  .colors .circulos .circulo {
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 3.5em;
+    width: 3.5em;
+    margin-right: 4%; }
+
+.colors .submit-btn {
+  font-size: 1.4em; }

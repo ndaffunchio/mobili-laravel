@@ -1,0 +1,82 @@
+footer {
+    // background: url(../assets/img/bg_footer.jpg) repeat;
+    background: $marron;
+    color: $blanco;
+    padding:3rem 1rem 1.5rem;
+    margin-top: 4rem;
+    img {
+        max-width: 200px;
+        margin-left: -1rem;
+    }
+    .alt-menu {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+        ul {
+            text-align: left;
+            li {
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 1.4em;
+                    font-weight: 300;
+                    padding:0.8rem;
+                    display: inline-block;
+                    transition: all 0.2s linear;
+                    color:$blanco;
+                    &:hover {
+                        color:$verde-claro;
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        p.copy {
+            margin-left: 1rem;
+            font-size: 1.2em;
+        }
+
+
+        &-newsletter {
+            color: $gris-oscuro;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 2rem 0 0;
+            margin-bottom:2rem;
+            display: flex;
+            flex-direction: column;
+            .alt-title{
+                font-size: 1.6em;
+                color: white;
+            }
+            p{
+                font-size: 1.8em;
+                color: white;
+            }
+            .form-field {
+                font-size: 1.8em;
+            }
+            .submit-btn {
+                font-size: 1.8em;
+                width: 100%;
+            }
+        }
+        
+    }
+}
+
+@media all and (min-width:768px){
+    footer{    
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;            
+        }   
+        }
+    }
